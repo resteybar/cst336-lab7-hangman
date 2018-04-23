@@ -1,13 +1,15 @@
-body{ margin: 0px; }
+body { 
+	margin: 0px; 
+}
 		
-#gameWindow{
+#gameWindow {
 	width: 2000px;
 	height: 1500px;
 	background-color: black;
 	margin: 0 auto;
 }
 
-#man{
+#man {
 	float: left;
 	width: 150px;
 	text-align: center;
@@ -15,7 +17,7 @@ body{ margin: 0px; }
 	margin-top: 0px;
 }
 
-#main{
+#main {
 	position: relative;
 	width:600px;
 	height: 500px;
@@ -24,7 +26,7 @@ body{ margin: 0px; }
 	border: 1px solid white;
 }
 
-#gameBoard, #splashScreen{
+#gameBoard, #splashScreen {
 	position: absolute;
 	width: 600px;
 	height: 500px;
@@ -34,18 +36,18 @@ body{ margin: 0px; }
 
 }
 
-#splashScreen{
+#splashScreen {
 	z-index: 2;
 	background-color: black;
 }
 
-h1{
+h1 {
 	color: white;
 	font-size: 40pt;
 	text-align: center;
 }
 
-#btnStart{
+#btnStart {
 	padding: 10px;
 	margin: 100px auto;
 	background-color: white;
@@ -54,11 +56,11 @@ h1{
 	font-weight: bold;
 }
 
-#btnStart:hover{
+#btnStart:hover {
 	background-color: yellow;
 }
 
-.button{
+.button {
 	text-align: center;
 	cursor: hand;
 	cursor: pointer;
@@ -66,7 +68,7 @@ h1{
 	-moz-border-radius: 12px;
 	border-radius: 12px;
 }
-.hbtn{
+.hbtn {
 	color: white;
 	text-align: center;
 	cursor: hand;
@@ -76,7 +78,7 @@ h1{
 	border-radius: 12px;
 }
 
-.panel{
+.panel {
 	background-color: black;
 	padding: 20px;
 	margin: 20px;
@@ -85,7 +87,7 @@ h1{
 	-moz-border-radius: 6px;
 	border-radius: 6px;
 }
-.box{
+.box {
 	float: left;
 	text-align: center;
 	font-size: 16pt;
@@ -95,10 +97,10 @@ h1{
 	margin: 3px;
 	color: yellow;
 }
-.letter{
+.letter {
 	border-bottom: solid white 2px;
 }
-.btnLetter{
+.btnLetter {
 	display: inline-block;
 	text-align: center;
 	font-size: 18pt;
@@ -116,10 +118,10 @@ h1{
 	border: white 2px solid;
 }
 
-.btnLetter:hover{
+.btnLetter:hover {
 	background-color: navy;
 }
-.lblUsed{
+.lblUsed {
 	display: inline-block;
 	text-align: center;
 	font-size: 14pt;
@@ -132,9 +134,9 @@ h1{
 	border-radius: 5px;
 	border: white 1px dotted;
 }
-#puzzle{
+#puzzle {
 	height: 40px;
 }
-#used{
+#used {
 	min-height: 40px;
 }
